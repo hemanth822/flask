@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Resume</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #43627e;
+        }
+
+        .resume {
+            background: white;
+            padding: 30px;
+            max-width: 800px;
+            margin: auto;
+            box-shadow: 0 0 10px gray;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h2 {
+            color: #444;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        nav {
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="resume">
+
+    <nav>
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="{{ url_for('about') }}">About</a>
+    </nav>
+
+    <h1>KITTALI HEMANTH KUMAR</h1>
+
+    <p>
+        <b>Email:</b> khemanthkumar822@gmail.com
+    </p>
+
+    <p>
+        <b>Phone:</b> +91 9014090822
+    </p>
+
+    <h2>Career Objective</h2>
+    <p>
+        B.Tech student specializing in Data science, seeking an opportunity to apply my programming
+        and technical skills in a professional environment.
+    </p>
+
+    <h2>Education</h2>
+
+    <p>
+        <b>Gayatri vidya parishad college of Engineering</b><br>
+        B.Tech - Computer Science and Data Science<br>
+        CGPA: 7.72
+    </p>
+
+    <p>
+        <b>Narayana Junior College</b><br>
+        Intermediate<br>
+        
+    </p>
+
+    <p>
+        <b>Ravindra Bharathi School</b><br>
+        Secondary Education<br>
+        
+    </p>
+
+    <h2>Technical Skills</h2>
+
+    <ul>
+        <li>Python</li>
+        <li>HTML & CSS</li>
+        <li>SQL</li>
+        <li>Flask</li>
+        <li>Machine Learning</li>
+    </ul>
+
+    <h2>Projects</h2>
+
+    <ul>
+        <li>AWS Data Engineering</li>
+        <li>Gym management system</li>
+    </ul>
+
+    <h2>Internship</h2>
+
+    <p>
+        AIML Developer - NIELIT Virtual Academy
+    </p>
+
+</div>
+
+</body>
+</html>
